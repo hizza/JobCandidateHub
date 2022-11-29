@@ -21,6 +21,7 @@ namespace JobCandidateHubApi.Controllers
 
         public CandidateController(ICandidateRepo candidateRepo, IMapper mapper)
         {
+            //Dependecy Injection
             _candidateRepo = candidateRepo;
             _mapper = mapper;
         }
@@ -45,16 +46,18 @@ namespace JobCandidateHubApi.Controllers
             var candidate = _candidateRepo.GetCandidateByEmail(candidateModel.Email);
             if (candidate != null)
             {
-                return Ok("Candidate with this email exist");
+                //If candidate profile exist update the profile
+                _mapper.Map(CreateDto, candidateModel);
+                _candidateRepo.UpdateCandidate(candidateModel);
+                _candidateRepo.SaveChanges();
+                return Ok("Candidate with this email exist, Profile Updated");
             }
             else
             {
+                //Insert candidate
                 _candidateRepo.CreateCandidate(candidateModel);
                 _candidateRepo.SaveChanges();
             }
-
-
-
 
             var ReadDto = _mapper.Map<ReadDto>(candidateModel);
             return CreatedAtRoute(nameof(GetCandidateById), new { ReadDto.Id }, ReadDto);

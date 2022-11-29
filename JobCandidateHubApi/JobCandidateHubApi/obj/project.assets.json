@@ -5199,11 +5199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\JobCandidateHubApi\\JobCandidateHubApi\\JobCandidateHubApi\\JobCandidateHubApi.csproj",
+      "projectUniqueName": "E:\\JobCandidateHubRepository\\JobCandidateHub\\JobCandidateHubApi\\JobCandidateHubApi\\JobCandidateHubApi.csproj",
       "projectName": "JobCandidateHubApi",
-      "projectPath": "E:\\JobCandidateHubApi\\JobCandidateHubApi\\JobCandidateHubApi\\JobCandidateHubApi.csproj",
+      "projectPath": "E:\\JobCandidateHubRepository\\JobCandidateHub\\JobCandidateHubApi\\JobCandidateHubApi\\JobCandidateHubApi.csproj",
       "packagesPath": "C:\\Users\\HERMAN LUKINDO\\.nuget\\packages\\",
-      "outputPath": "E:\\JobCandidateHubApi\\JobCandidateHubApi\\JobCandidateHubApi\\obj\\",
+      "outputPath": "E:\\JobCandidateHubRepository\\JobCandidateHub\\JobCandidateHubApi\\JobCandidateHubApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

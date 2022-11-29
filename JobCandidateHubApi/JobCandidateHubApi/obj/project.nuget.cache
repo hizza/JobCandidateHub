@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2OLZok7A4Hz7VT42xptjfvkUTvRnZKIHSUf6U+uHCY+jGgN+yRvrJZbEMRrokh3/CwpfRdVicRnY2lxduJIbBA==",
+  "dgSpecHash": "B49XuqqDjzH1TSNMG0SXe+vp3sdvEn9bfwrzeVvpFqgctCK2kzOKZ65B+bixSnDpRP2BmjTf7TS/6vJTvBY2Zg==",
   "success": true,
-  "projectFilePath": "E:\\JobCandidateHubApi\\JobCandidateHubApi\\JobCandidateHubApi\\JobCandidateHubApi.csproj",
+  "projectFilePath": "E:\\JobCandidateHubRepository\\JobCandidateHub\\JobCandidateHubApi\\JobCandidateHubApi\\JobCandidateHubApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HERMAN LUKINDO\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\HERMAN LUKINDO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
