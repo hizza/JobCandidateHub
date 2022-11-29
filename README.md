@@ -4,7 +4,7 @@ For the sake of below requirements i decided to change some few things
     This will be heavy for a csv file to handle large amount of data. And in order to update a record we are going to pull all the records and update a single record this is expensive in terms of speed so i saw a need to use Sql server database with Entity framework.
 
 # Requirement 2. It should not be needed to install any extension to run the project
-    I order to simplify the activity i had to use the following, you must install
+    In order to simplify this activity i had to use the following, you must install
 # For JobCandidateHubApi Nuget packages to install
     AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0"
     Microsoft.AspNetCore.JsonPatch"  Version="3.1.5"
